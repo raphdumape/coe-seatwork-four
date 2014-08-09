@@ -1,9 +1,10 @@
-  for (var i=0; i<8; i++)
-  {
-  for (var j=0; j<i; j++)
-  {
-  console.log("#");
-  }
-  console.log("");
-  }
- 
+function drawTriangle(a){
+	var b = "#", c = "";
+	for(var d = 1; d<=a; d++){
+		for(var e = a; e<=a; e++ ){
+			c += b;
+		}
+		console.log(c);
+	}
+}
+drawTriangle(8);
